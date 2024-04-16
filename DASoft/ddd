@@ -1,0 +1,27 @@
+<div class="form-container">
+      <h2>Register</h2>
+        <form method='post' action='register.php' autocomplete='off'>
+        <label for="regUsername">First Name:</label>
+        <input type="text" id="regUsername" name="fname" required>
+        <label for="regUsername">Last Name:</label>
+        <input type="text" id="regUsername" name="lname" required>
+        <label for="regUsername">Location:</label>
+        <input type="text" id="regUsername" name="location" required>
+        <label for="regUsername">Phone Number:</label>
+        <input type="text" id="regUsername" name="pnumber" required>
+        <label for="regUsername">User Name:</label>
+        <input type="text" id="regUsername" name="Uname" required>
+
+        <label for="regEmail">Email:</label>
+        <input type="email" id="regEmail" name="email" required>
+
+        <label for="regPassword">Password:</label>
+        <input type="password" id="regPassword" name="pwd" required>
+        <div class="form-group">
+        <input type="submit" name="submit" id="form-container2" value="Register">
+        <input type="reset" class="btn btn-secondary ml-2" value="Reset">
+            </div>
+            <p>Already have an account? <a href="login.html">Login here</a>.</p>
+      </form>
+    </div>
+  </div>
